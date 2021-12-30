@@ -34,17 +34,52 @@
   padding: 20px;
 }
 
+.page-preview *{
+  background-color: #f2f2f2;
+  color: rgb(15,15,15);
+}
 
 .page-preview {
+  background-color: #f2f2f2;
   padding: 10px 16px;
-  margin: 20px 0;
-  border-bottom: 1px solid #fafafa;
+  margin: 15px 0px;
+  transition: 0.2s;
+  border-radius: 5px;
 }
 .page-preview:hover {
-  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  transform: translateY(-5px) translateX(-5px);
 }
 .page-preview h2 {
   font-size: 20px;
   color: #009e15;
   margin-bottom: 8px;
+}
+
+.page-preview a{
+  text-decoration: none;
+}
+
+/* page details page */
+.page-details h2 {
+  font-size: 25px;
+  color: #009e15;
+  margin-bottom: 10px;
+}
+
+.page-details p {
+  font-size: 15px;
+  color: lightgrey;
+}
+
+.page-details div {
+  margin: 20px 0;
+}
+.page-details button {
+  background: #009e15;
+  color: #fff;
+  border: 0;
+  padding: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 10px;
 }
