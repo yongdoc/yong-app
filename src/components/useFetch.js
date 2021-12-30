@@ -20,10 +20,7 @@ const useFetch = (url) => {
         setError(null);
       })
       .catch(err => {
-        if(err.name === "AbortError") {
-
-        }
-        else {
+        if(err.name !== "AbortError"){
           setIsPending(false);
           setError(err.message);
         }
