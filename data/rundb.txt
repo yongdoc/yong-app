@@ -1,0 +1,1 @@
+npx json-server --watch [filedir] --port [port]
