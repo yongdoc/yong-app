@@ -17,6 +17,22 @@
       "body": "lorem ipsum...",
       "author": "yahya",
       "id": 3
+    },
+    {
+      "title": "testing",
+      "body": "testing upload hehe",
+      "author": "yong",
+      "id": 4
+    }
+  ],
+  "authors": [
+    {
+      "id": 1,
+      "name": "yahya"
+    },
+    {
+      "id": 2,
+      "name": "yong"
     }
   ]
 }

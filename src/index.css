@@ -14,7 +14,7 @@
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
 }
-.navbar h1 {
+.navbar h1 a {
   color: #009e15;
 }
 .navbar .links {
@@ -24,6 +24,7 @@
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
+  transition: 0.2s;
 }
 .navbar a:hover {
   color: #009e15;
@@ -78,8 +79,45 @@
   background: #009e15;
   color: #fff;
   border: 0;
-  padding: 5px;
+  padding: 3px 8px;
   border-radius: 8px;
   cursor: pointer;
   margin-right: 10px;
+}
+
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #009e15;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  color: #383838;
+  font-size: 15px;
+  background-color: white;
+  width: 100%;
+  padding: 3px 5px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  margin-top: 15px;
+  background: #009e15;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
 }
